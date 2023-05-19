@@ -52,7 +52,7 @@ const userSlice = createSlice({
             loading: false,
           };
         } catch (error) {
-          window.location.href = '/'
+          // window.location.href = '/'
           return {
             ...state,
             data: action.payload,
@@ -78,7 +78,7 @@ const userSlice = createSlice({
             loading: false,
           };
         } catch (error) {
-          window.location.href = '/login'
+          // window.location.href = '/login'
           return {
             ...state,
             error: null,
